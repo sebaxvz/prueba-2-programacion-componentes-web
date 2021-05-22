@@ -28,9 +28,8 @@
 						<a class="navbar-link"> Ingresar</a>
 
 						<div class="navbar-dropdown">
-							<a class="navbar-item" href="AgregarConsolaController.do"> Ingresar atencion </a> 
-							<a class="navbar-item">
-								revisar atencion </a> 
+							<a class="navbar-item" href="IngresarController.do"> Ingresar atencion </a> 
+							<a class="navbar-item" href="AtenderController.do"> revisar atencion </a> 
 					
 						</div>
 					</div>
