@@ -3,6 +3,8 @@
 	<name>PruebaApp</name>
 	<comment></comment>
 	<projects>
+		<project>ZcapModel1</project>
+		<project>PruebaModel</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

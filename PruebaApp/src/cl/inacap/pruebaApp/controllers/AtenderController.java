@@ -1,6 +1,8 @@
 package cl.inacap.pruebaApp.controllers;
 
 import java.io.IOException;
+
+import javax.inject.Inject;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -13,6 +15,9 @@ import javax.servlet.http.HttpServletResponse;
 @WebServlet("/AtenderController.do")
 public class AtenderController extends HttpServlet {
 	private static final long serialVersionUID = 1L;
+	
+	@Inject
+	private DatoDAOLocal DatoDAO;
        
     /**
      * @see HttpServlet#HttpServlet()
